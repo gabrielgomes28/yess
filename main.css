@@ -1,0 +1,120 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+ .container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    
+
+ }
+ header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+ }
+ header{
+    padding: 16px 0;
+    border-bottom: 1px solid gray;
+    background-color: azure;
+    margin-bottom: 56px;
+
+ }
+ .tenis img{
+    max-width: 70%;
+    
+ }
+ .conteudo{
+    display: grid;
+    grid-template-columns: 60% ;
+ }
+ .destaque{
+    margin-bottom: 56px;
+ }
+ .destaque .sobre  a {
+    display: flex;
+    font-size: 2em;
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+ }
+
+ .destaque .sobre img{
+    margin-right: 6px;
+
+ }
+
+ section h2{
+    margin-bottom: 32px;
+
+ }
+ aside{
+    padding-left: 40px;
+
+ }
+ aside .produtos{
+    margin-bottom: 24px;
+
+ }
+.tenis .produtos{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.tenis {
+    display: flex;
+}
+
+
+
+@media screen  and (max-width: 767px) { 
+    .conteudo{
+        display: block;
+       
+
+    }
+.container{
+    max-width: 90%;
+}
+.destaque{
+    margin-bottom: 56px;
+ }
+ .destaque .sobre  a {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+ }
+
+ .destaque .sobre img{
+    margin-right: 0;
+
+ }
+ .produtos{
+    grid-template-columns: repeat(2,49%);
+ }
+
+
+
+
+    
+}
